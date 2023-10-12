@@ -2268,6 +2268,22 @@ footer .header__nav a {
     width: 335px;
   }
 
+  .start__left li a,
+  .link {
+    text-decoration: underline 2px rgba(0, 0, 0, 0);
+    text-underline-offset: 4px;
+  }
+
+  .start__left li a:hover,
+  .link:hover {
+    text-decoration-color: #297EE2;
+  }
+
+  .start__left li a:hover::after,
+  .link:hover::after {
+    display: none;
+  }
+
   .theme__button img {
     width: 23px;
   }
